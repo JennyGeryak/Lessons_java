@@ -1,0 +1,6 @@
+https://www.java.com/en/download/manual.jsp Java DONE
+https://www.eclipse.org/downloads/ Eclipse DONE
+http://www.xmind.net/download/win/ xMind DONE
+http://mozilla-firefox.en.softonic.com/download Firefox DONE
+https://addons.mozilla.org/ru/firefox/addon/firepath/ FirePath DONE
+http://getfirebug.com/ Firebug DONE
