@@ -20,10 +20,10 @@ public class CustomerGoods {
     public int getHeight(){};
     public int getWidth(){};
     public int getLength(){};
-    public setName(String new_name){
+    private setName(String new_name){
         name = new_name;
     }
-    public setCategory(String new_category){
+    private setCategory(String new_category){
         category = new_category;
     }
 }
