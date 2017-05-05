@@ -10,6 +10,8 @@ public class MusicInstruments {
     public long year_of_manufacture;
     private int tuned;
     private int detuned;
+    public int period;
+    public long year;
 
     public float getPrice (){};
     private boolean isString (){};
@@ -20,8 +22,8 @@ public class MusicInstruments {
     public String getModel(){};
     public int getWieght(){};
     public int getHeight(){};
-    private setExploitationPeriod(exploitation_period){
+    private setExploitationPeriod(new_period){
         period = new_period;
     }
-    private setYear(year_of_manufacture){ year = new_year; }
+    private setYear(new_year){ year = new_year; }
 }
