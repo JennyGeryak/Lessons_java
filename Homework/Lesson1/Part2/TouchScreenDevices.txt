@@ -17,14 +17,14 @@ States:
 Methods part 1: 
 1. get the increased screen sensitivity
 2. get screen size
+3. get type of device
 
 Methods part 2: 
 1. get price of devices
 2. get name of devices
-3. get kind of the entertainment
+3. set brand of devices
 4. set model of devices
 5. get date of manufacture
-6. set brand of devices
 
 Rules: 
 1. Methods part 1 are available for class “Device” to be executed.
