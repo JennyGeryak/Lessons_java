@@ -16,7 +16,7 @@ States:
 
 Methods part 1: 
 1. get the increased screen sensitivity
-2. get screen size
+2. set screen size
 3. get type of device
 
 Methods part 2: 
