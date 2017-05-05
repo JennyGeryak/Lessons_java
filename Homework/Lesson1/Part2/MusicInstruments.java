@@ -23,5 +23,5 @@ public class MusicInstruments {
     private setExploitationPeriod(exploitation_period){
         period = new_period;
     }
-    private setYear(year_of_manufacture){ year = year; }
+    private setYear(year_of_manufacture){ year = new_year; }
 }
