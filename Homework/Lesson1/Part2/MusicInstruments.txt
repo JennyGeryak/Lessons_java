@@ -1,0 +1,33 @@
+Class “MusicInstruments”
+
+Attributes: 
+1. name of instrument
+2. max volume
+3. wieght
+4. height
+5. group of instruments(string instruments, woodwind instruments, brass instruments,percussion instruments)
+6. model of instrument
+7. year of manufacture
+8. exploitation period
+9. price 
+
+States: 
+1. tuned instrument
+2. detuned instrument
+
+Methods part 1: 
+1. information about exploitation period of the instrument
+2. information about year of manufacture of the instrument
+
+Methods part 2: 
+1. know instrument model 
+2. get name of the instrument
+3. get max volume
+4. get weight of the instrument
+5. get height of the instrument
+6. know price 
+7. get group of instrument
+ 
+Rules: 
+1. Methods part 1 are available for class “Music” to be executed.
+2. Methods part 2 are internal and available only inside “MusicInstruments” class.
