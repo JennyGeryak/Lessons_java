@@ -1,0 +1,31 @@
+Class “Entertainments”
+
+Attributes: 
+1. name of entertainment
+2. place for entertainment
+3. single player entertainments
+4. team entertainments
+5. quantity of people for the team
+6. time for entertainment
+7. kind of entertainment(music, games, readind, sports,shopping etc)
+8. date
+
+States: 
+1. active entertainment
+2. passive entertainment
+
+Methods part 1: 
+1. get single player entertainments
+2. get team entertainments
+
+Methods part 2: 
+1. get place of the entertainment
+2. get name of the entertainment
+3. set kind of the entertainment
+4. know price 
+5. get date of the entertainment
+6. set time
+ 
+Rules: 
+1. Methods part 1 are available for class “Impression” to be executed.
+2. Methods part 2 are internal and available only inside “Entertainments” class.
