@@ -15,16 +15,15 @@ States:
 2. passive entertainment
 
 Methods part 1: 
-1. get single player entertainments
-2. get team entertainments
+1. get kind of the entertainment
+2. set time
 
 Methods part 2: 
 1. get place of the entertainment
 2. get name of the entertainment
-3. get kind of the entertainment
-4. know price 
-5. get date of the entertainment
-6. set time
+3. know price 
+4. get date of the entertainment
+
  
 Rules: 
 1. Methods part 1 are available for class “Impression” to be executed.
