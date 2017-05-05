@@ -15,17 +15,17 @@ States:
 2. broken device
 
 Methods part 1: 
-1. get single player entertainments
-2. get team entertainments
+1. get the increased screen sensitivity
+2. get screen size
 
 Methods part 2: 
-1. get place of the entertainment
-2. get name of the entertainment
+1. get price of devices
+2. get name of devices
 3. get kind of the entertainment
-4. know price 
-5. get date of the entertainment
-6. set time
- 
+4. set model of devices
+5. get date of manufacture
+6. set brand of devices
+
 Rules: 
 1. Methods part 1 are available for class “Device” to be executed.
 2. Methods part 2 are internal and available only inside “TouchScreenDevices” class.
