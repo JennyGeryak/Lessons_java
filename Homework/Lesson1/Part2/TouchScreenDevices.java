@@ -18,6 +18,6 @@ public class TouchScreenDevices {
     public int getBrand(){};
     public long date_of_manufacture(){};
     private int getIncreasedScreenSensitivity(){};
-    private setScreenSize(new_size) {
+    public setScreenSize(new_size) {
         size = new_size;}
 }
