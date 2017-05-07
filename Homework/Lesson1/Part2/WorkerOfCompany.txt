@@ -1,32 +1,29 @@
 Class УWorkerOfCompanyФ
-им€ возраст пол график работы зп
-программист методологи€ ведени€ процесса
-уборщица служебна€ одежда
-Attributes: 
-1. name of devices
-2. type of devices (phone, tablet)
-3. price
-4. date of manufacture
-5. screen size
-6. brand of devices
-7. model of devices
-8. the increased screen sensitivity
 
-States: 
-1. working device
-2. broken device
-нан€тый не нан€тый льготный не льготный
+Attributes: 
+1. name of worker
+2. age of worker
+3. sex (man, woman)
+4. schedule
+5. uniform
+6. type speed
+7. process type
+8. rang
+9. tool set
+10. team
+11. department
+
 Methods part 1: 
-1. в≥брать режим работ≥
-2. в≥брать валюту в≥дачи зп 
+1. choose schedule
+3. choose sex
 
 Methods part 2: 
 1. get age of worker
 2. get name of worker
-3. set brand of devices
-4. set model of devices
-5. get date of manufacture
-6. set screen size
+3. get salary of worker
+4. set schedule
+5. set salary
+6. set sex
 
 Rules: 
 1. Methods part 1 are available for class УWorkerФ to be executed.
