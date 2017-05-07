@@ -10,23 +10,33 @@ public class Film {
     public short rated;
     public String [] avards;
 
-    public String getName () {};
+    public String getName () {
+        return name;
+    };
     public setName (String new_name) {
         name = new_name;
     };
-    public int getYear () {};
+    public int getYear () {
+        return year;
+    };
     public setYear (int new_year) {
         year = new_year;
     };
-    public String getDirector () {};
+    public String getDirector () {
+        return director;
+    };
     public setDirector (String new_director) {
         director = new_director;
     };
-    public String getProducer () {};
+    public String getProducer () {
+        return producer;
+    };
     public setProducer (String new_producer) {
         producer = new_producer;
     };
-    public String getGanre () {};
+    public String getGanre () {
+        return ganre;
+    };
     public setGanre (String new_ganre) {
         ganre = new_ganre;
     };
