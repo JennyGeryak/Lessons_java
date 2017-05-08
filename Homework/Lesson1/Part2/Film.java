@@ -3,7 +3,7 @@ public class Film {
     public int year;
     public String director;
     public String producer;
-    public String ganre;
+    public String genre;
     public short rate;
     public String studio;
     public String country;
@@ -34,10 +34,10 @@ public class Film {
     public setProducer (String new_producer) {
         producer = new_producer;
     };
-    public String getGanre () {
-        return ganre;
+    public String getGenre () {
+        return genre;
     };
-    public setGanre (String new_ganre) {
-        ganre = new_ganre;
+    public setGenre (String new_genre) {
+        ganre = new_genre;
     };
 }
