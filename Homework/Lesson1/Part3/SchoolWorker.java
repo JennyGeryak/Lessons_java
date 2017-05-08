@@ -30,7 +30,6 @@ public class Principal extends Teacher{
     public boolean barInCabinet;
     public int secretaryCount;
 
-    public driveCar();
     public askSomeCoffee();
     public takeBrabe();
 }
