@@ -1,23 +1,23 @@
 public class TouchScreenDevices {
-    public String name;
-    public String model;
+    private String name;
+    private String model;
     private String type;
-    public int price;
-    public long date_of_manufacture;
+    private int price;
+    private long date_of_manufacture;
     private int size;
     private int detuned;
-    public int increased_screen_sensitivity;
-    public int working_device;
-    public int broken_device;
+    private int increased_screen_sensitivity;
+    private int working_device;
+    private int broken_device;
 
-    public float getPrice (){};
+    private float getPrice (){};
     private boolean isPhone (){};
     private boolean isTablet (){};
-    public String getName (){};
-    public String getModel(){};
-    public int getBrand(){};
-    public long date_of_manufacture(){};
+    private String getName (){};
+    private String getModel(){};
+    private int getBrand(){};
+    private long date_of_manufacture(){};
     private int getIncreasedScreenSensitivity(){};
-    public setScreenSize(new_size) {
+    private setScreenSize(new_size) {
         size = new_size;}
 }
