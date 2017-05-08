@@ -1,14 +1,14 @@
 public class Film {
-    public String name;
-    public int year;
-    public String director;
-    public String producer;
-    public String genre;
-    public short rate;
-    public String studio;
-    public String country;
-    public short rated;
-    public String [] avards;
+    private String name;
+    private int year;
+    private String director;
+    private String producer;
+    private String genre;
+    private short rate;
+    private String studio;
+    private String country;
+    private short rated;
+    private String [] avards;
 
     public String getName () {
         return name;
