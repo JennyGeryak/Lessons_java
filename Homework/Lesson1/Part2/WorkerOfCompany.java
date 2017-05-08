@@ -1,9 +1,9 @@
 public class WorkerOfCompany {
-    public String name;
-    public String age;
-    public float salary;
-    public String schedule;
-    public boolean sex;
+    private String name;
+    private String age;
+    private float salary;
+    private String schedule;
+    private boolean sex;
 
     private String chooseSchedule(String name){};
     private boolean chooseSex (String name) {};
@@ -21,21 +21,21 @@ public class WorkerOfCompany {
     };
 }
 public class Cleaner extends WorkerOfCompany {
-    public String uniform;
+    private String uniform;
 }
 public class Secretary extends WorkerOfCompany {
-    public int type_speed;
+    private int type_speed;
 }
 public class Programmer extends WorkerOfCompany {
-    public String process_type;
-    public String rang;
+    private String process_type;
+    private String rang;
 }
 public class Supplier extends Cleaner {
-    public String tool_set;
+    private String tool_set;
 }
 public class TeamLead extends Programmer {
-    public String team;
+    private String team;
 }
 public class CEO extends WorkerOfCompany {
-    public String department;
+    private String department;
 }
