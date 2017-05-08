@@ -35,5 +35,5 @@ public class Book{
     public setIsbn (String new_isbn) {
         isbn = new_isbn;
     };
-
+    public String getCover () {return cover};
 }
