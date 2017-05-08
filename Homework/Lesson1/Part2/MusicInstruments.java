@@ -1,17 +1,17 @@
 public class MusicInstruments {
-    public String name;
-    public String model;
-    public String group;
-    public int wieght;
-    public int height;
-    public int volume;
-    public int price;
-    public long exploitation_period;
-    public long year_of_manufacture;
+    private String name;
+    private String model;
+    private String group;
+    private int wieght;
+    private int height;
+    private int volume;
+    private int price;
+    private long exploitation_period;
+    private long year_of_manufacture;
     private int tuned;
     private int detuned;
-    public int period;
-    public long year;
+    private int period;
+    private long year;
 
     public float getPrice (){};
     private boolean isString (){};
