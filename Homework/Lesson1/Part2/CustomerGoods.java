@@ -1,12 +1,12 @@
 public class CustomerGoods {
-    public String name;
-    public String category;
-    public int wieght;
-    public int height;
-    public int width;
-    public int length;
-    public long date_of_manufacture;
-    public long shelf_life;
+    private String name;
+    private String category;
+    private int wieght;
+    private int height;
+    private int width;
+    private int length;
+    private long date_of_manufacture;
+    private long shelf_life;
     private int barcode;
     private String product_id;
 
