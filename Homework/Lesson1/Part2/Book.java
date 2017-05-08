@@ -1,14 +1,14 @@
 public class Book{
-    public String name;
-    public String author;
-    public int year;
-    public String ganre;
-    public String publisher;
-    public String country;
-    public long isbn;
-    public int quantity;
-    public String cover;
-    public String[] localization;
+    private String name;
+    private String author;
+    private int year;
+    private String ganre;
+    private String publisher;
+    private String country;
+    private long isbn;
+    private int quantity;
+    private String cover;
+    private String[] localization;
 
     public addLocalization(String local){};
     public String getName () {
