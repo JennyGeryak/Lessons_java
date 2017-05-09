@@ -8,17 +8,74 @@ public class Entertainments {
     private int price;
     private long time;
 
-    public float getPrice (){};
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPlace() {
+        return place;
+    }
+
+    public void setPlace(String place) {
+        this.place = place;
+    }
+
+    public int getDate() {
+        return date;
+    }
+
+    public void setDate(int date) {
+        this.date = date;
+    }
+
+    public int getActive_entertainment() {
+        return active_entertainment;
+    }
+
+    public void setActive_entertainment(int active_entertainment) {
+        this.active_entertainment = active_entertainment;
+    }
+
+    public int getPassive_entertainment() {
+        return passive_entertainment;
+    }
+
+    public void setPassive_entertainment(int passive_entertainment) {
+        this.passive_entertainment = passive_entertainment;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public long getTime() {
+        return time;
+    }
+
+    public void setTime(long time) {
+        this.time = time;
+    }
+
     private boolean isMusic (){};
     private boolean isGames (){};
     private boolean isReadind (){};
     private boolean isSports (){};
     private boolean isShopping (){};
-    public String getName (){};
-    public String getPlace(){};
-    public int getDate(){};
-    public int getQuantity(){};
-    private setTime(new_time){
-        time = new_time;
-    }
+
 }
