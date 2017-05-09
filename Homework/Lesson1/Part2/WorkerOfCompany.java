@@ -4,6 +4,7 @@ public class WorkerOfCompany {
     private float salary;
     private String schedule;
     private boolean sex;
+    private boolean ready_for_work = false;
 
     public String getName() {
         return name;
@@ -35,6 +36,7 @@ public class WorkerOfCompany {
 
     public void setSchedule(String schedule) {
         this.schedule = schedule;
+        this.ready_for_work = true;
     }
 
     public boolean isSex() {
