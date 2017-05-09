@@ -10,14 +10,87 @@ public class TouchScreenDevices {
     private int working_device;
     private int broken_device;
 
-    private float getPrice (){};
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public long getDate_of_manufacture() {
+        return date_of_manufacture;
+    }
+
+    public void setDate_of_manufacture(long date_of_manufacture) {
+        this.date_of_manufacture = date_of_manufacture;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public int getDetuned() {
+        return detuned;
+    }
+
+    public void setDetuned(int detuned) {
+        this.detuned = detuned;
+    }
+
+    public int getIncreased_screen_sensitivity() {
+        return increased_screen_sensitivity;
+    }
+
+    public void setIncreased_screen_sensitivity(int increased_screen_sensitivity) {
+        this.increased_screen_sensitivity = increased_screen_sensitivity;
+    }
+
+    public int getWorking_device() {
+        return working_device;
+    }
+
+    public void setWorking_device(int working_device) {
+        this.working_device = working_device;
+    }
+
+    public int getBroken_device() {
+        return broken_device;
+    }
+
+    public void setBroken_device(int broken_device) {
+        this.broken_device = broken_device;
+    }
+
     private boolean isPhone (){};
     private boolean isTablet (){};
-    private String getName (){};
-    private String getModel(){};
-    private int getBrand(){};
-    private long date_of_manufacture(){};
-    private int getIncreasedScreenSensitivity(){};
-    private setScreenSize(new_size) {
-        size = new_size;}
+
 }
