@@ -1,4 +1,10 @@
 public class Book{
+
+    public static void main (String args[ ])
+    {
+        System.out.println( "hi, this is class Book" );
+    }
+
     private String name;
     private String author;
     private int year;
@@ -90,6 +96,6 @@ public class Book{
         this.localization = localization;
     }
 
-    public addLocalization(String local){};
+    public void addLocalization(String local){};
 
 }

@@ -1,4 +1,10 @@
 public class Film {
+
+    public static void main (String args[ ])
+    {
+        System.out.println( "hi, this is class Film" );
+    }
+
     private String name;
     private int year;
     private String director;
