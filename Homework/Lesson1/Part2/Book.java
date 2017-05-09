@@ -10,30 +10,86 @@ public class Book{
     private String cover;
     private String[] localization;
 
-    public addLocalization(String local){};
-    public String getName () {
+    public String getName() {
         return name;
-    };
-    public setName (String new_name) {
-        name = new_name;
-    };
-    public String getAuthor () {
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAuthor() {
         return author;
-    };
-    public setAuthor (String new_author) {
-        author = new_author;
-    };
-    public String getGanre () {
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getGanre() {
         return ganre;
-    };
-    public setGanre (String new_ganre) {
-        ganre = new_ganre;
-    };
-    public String getIsbn() {
+    }
+
+    public void setGanre(String ganre) {
+        this.ganre = ganre;
+    }
+
+    public String getPublisher() {
+        return publisher;
+    }
+
+    public void setPublisher(String publisher) {
+        this.publisher = publisher;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public long getIsbn() {
         return isbn;
-    };
-    public setIsbn (String new_isbn) {
-        isbn = new_isbn;
-    };
-    public String getCover () {return cover};
+    }
+
+    public void setIsbn(long isbn) {
+        this.isbn = isbn;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getCover() {
+        return cover;
+    }
+
+    public void setCover(String cover) {
+        this.cover = cover;
+    }
+
+    public String[] getLocalization() {
+        return localization;
+    }
+
+    public void setLocalization(String[] localization) {
+        this.localization = localization;
+    }
+
+    public addLocalization(String local){};
+
 }
