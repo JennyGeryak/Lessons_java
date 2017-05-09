@@ -10,34 +10,85 @@ public class Film {
     private short rated;
     private String [] avards;
 
-    public String getName () {
+    public String getName() {
         return name;
-    };
-    public setName (String new_name) {
-        name = new_name;
-    };
-    public int getYear () {
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getYear() {
         return year;
-    };
-    public setYear (int new_year) {
-        year = new_year;
-    };
-    public String getDirector () {
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getDirector() {
         return director;
-    };
-    public setDirector (String new_director) {
-        director = new_director;
-    };
-    public String getProducer () {
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public String getProducer() {
         return producer;
-    };
-    public setProducer (String new_producer) {
-        producer = new_producer;
-    };
-    public String getGenre () {
+    }
+
+    public void setProducer(String producer) {
+        this.producer = producer;
+    }
+
+    public String getGenre() {
         return genre;
-    };
-    public setGenre (String new_genre) {
-        ganre = new_genre;
-    };
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public short getRate() {
+        return rate;
+    }
+
+    public void setRate(short rate) {
+        this.rate = rate;
+    }
+
+    public String getStudio() {
+        return studio;
+    }
+
+    public void setStudio(String studio) {
+        this.studio = studio;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
+    public short getRated() {
+        return rated;
+    }
+
+    public void setRated(short rated) {
+        this.rated = rated;
+    }
+
+    public String[] getAvards() {
+        return avards;
+    }
+
+    public void setAvards(String[] avards) {
+        this.avards = avards;
+    }
+
+
 }
