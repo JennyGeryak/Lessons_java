@@ -1,4 +1,9 @@
 public class CustomerGoods {
+
+    public static void main (String args[ ])
+    {
+        System.out.println( "hi, this is class CustomerGoods" );
+    }
     private String name;
     private String category;
     private int wieght;
