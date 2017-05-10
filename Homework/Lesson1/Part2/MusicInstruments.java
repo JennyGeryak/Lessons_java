@@ -1,4 +1,8 @@
 public class MusicInstruments {
+    public static void main (String args[ ])
+    {
+        System.out.println( "hi, this is class MusicInstruments" );
+    }
     private String name;
     private String model;
     private String group;
@@ -12,6 +16,10 @@ public class MusicInstruments {
     private int detuned;
     private int period;
     private long year;
+    private boolean string;
+    private boolean woodwind;
+    private boolean brass;
+    private boolean percussion;
 
     public String getName() {
         return name;
@@ -117,9 +125,9 @@ public class MusicInstruments {
         this.year = year;
     }
 
-    private boolean isString (){};
-    private boolean isWoodwind (){};
-    private boolean isBrass (){};
-    private boolean isPercussion (){};
+    private boolean isString (){ return this.string; }
+    private boolean isWoodwind (){ return this.woodwind; }
+    private boolean isBrass (){ return this.brass; }
+    private boolean isPercussion (){ return this.percussion; }
 
 }
