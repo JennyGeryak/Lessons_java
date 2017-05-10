@@ -1,7 +1,13 @@
 public class TouchScreenDevices {
+    public static void main (String args[ ])
+    {
+        System.out.println( "hi, this is class TouchScreenDevices" );
+    }
     private String name;
     private String model;
     private String type;
+    private boolean phone;
+    private boolean tablet;
     private int price;
     private long date_of_manufacture;
     private int size;
@@ -90,7 +96,7 @@ public class TouchScreenDevices {
         this.broken_device = broken_device;
     }
 
-    private boolean isPhone (){};
-    private boolean isTablet (){};
+    private boolean isPhone (){ return this.phone; };
+    private boolean isTablet (){ return this.tablet; };
 
 }
