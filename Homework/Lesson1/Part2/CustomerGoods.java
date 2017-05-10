@@ -1,5 +1,8 @@
 public class CustomerGoods {
 
+    CustomerGoods() {
+
+    }
     public static void main (String args[ ])
     {
         System.out.println( "hi, this is class CustomerGoods" );

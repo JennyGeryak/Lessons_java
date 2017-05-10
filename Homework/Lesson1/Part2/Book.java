@@ -1,5 +1,8 @@
 public class Book{
 
+    Book() {
+
+    }
     public static void main (String args[ ])
     {
         System.out.println( "hi, this is class Book" );

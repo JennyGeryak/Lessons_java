@@ -1,5 +1,9 @@
 public class Film {
 
+    Film() {
+
+    }
+
     public static void main (String args[ ])
     {
         System.out.println( "hi, this is class Film" );
