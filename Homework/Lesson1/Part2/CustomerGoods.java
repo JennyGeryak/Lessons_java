@@ -14,6 +14,8 @@ public class CustomerGoods {
     private long shelf_life;
     private int barcode;
     private String product_id;
+    private boolean fresh;
+    private boolean availiable;
 
     public String getName() {
         return name;
@@ -95,8 +97,8 @@ public class CustomerGoods {
         this.product_id = product_id;
     }
 
-    private boolean isFresh (){};
-    private boolean isAvailible (){};
-    public buy (){};
+    private boolean isFresh (){ return this.fresh; }
+    private boolean isAvailible (){ return this.fresh; }
+    public void buy (){};
 
 }
