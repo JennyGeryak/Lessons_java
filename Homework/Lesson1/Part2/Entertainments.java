@@ -1,12 +1,21 @@
 public class Entertainments {
+    public static void main (String args[ ])
+    {
+        System.out.println( "hi, this is class Entertainments" );
+    }
     private String name;
     private String place;
     private int date;
     private int active_entertainment;
-    private int passive_entertainment
+    private int passive_entertainment;
     private int quantity;
     private int price;
     private long time;
+    private boolean music;
+    private boolean games;
+    private boolean reading;
+    private boolean sports;
+    private boolean shopping;
 
     public String getName() {
         return name;
@@ -72,10 +81,9 @@ public class Entertainments {
         this.time = time;
     }
 
-    private boolean isMusic (){};
-    private boolean isGames (){};
-    private boolean isReadind (){};
-    private boolean isSports (){};
-    private boolean isShopping (){};
-
+    private boolean isMusic (){ return this.music; }
+    private boolean isGames (){ return this.games; }
+    private boolean isReading (){ return this.reading; }
+    private boolean isSports (){ return this.sports; }
+    private boolean isShopping (){ return this.shopping; }
 }
