@@ -1,11 +1,31 @@
 public class Book{
 
-    Book() {
+    public Book() {
 
     }
-    public static void main (String args[ ])
+
+    public Book(String name, String author, int year, String ganre, String publisher, String country)
     {
-        System.out.println( "hi, this is class Book" );
+        this.name = name;
+        this.author = author;
+        this.year = name;
+        this.ganre = ganre;
+        this.publisher = publisher;
+        this.country = country; }
+
+    public Book(String name, String author) {
+
+    }
+
+    public static void main (String args[ ])
+
+    {
+        Book myBook1 = new Book("Kobzar", "Shevchenko", 1840, "poetry", "Korbush", "Ukraine");
+        Book myBook2 = new Book("Harry Potter", "Rowling");
+        System.out.println("Jane is reading a book.\n Its name is "+myBook1.getName());
+
+        myBook2.setName("Harry Potter and the philosopher's stone");
+        System.out.println("Jane is reading another book.\n Its name is "+myBook1.getName());
     }
 
     private String name;
@@ -99,6 +119,5 @@ public class Book{
         this.localization = localization;
     }
 
-    public void addLocalization(String local){};
 
 }
