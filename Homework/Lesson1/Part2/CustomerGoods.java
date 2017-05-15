@@ -3,9 +3,26 @@ public class CustomerGoods {
     CustomerGoods() {
 
     }
-    public static void main (String args[ ])
+    public CustomerGoods(String name, String category, int wieght, String product_id)
     {
-        System.out.println( "hi, this is class CustomerGoods" );
+        this.name = name;
+        this.category = category;
+        this.wieght = wieght;
+        this.product_id = product_id;}
+
+    public CustomerGoods (String name, String product_id) {
+
+    }
+
+    public static void main (String args[ ])
+
+    {
+        CustomerGoods Good1 = new CustomerGoods("Apple", "Fruit", 100, , "some1233");
+        CustomerGoods Good2 = new Book("Apple", "some1233");
+        System.out.println("Jane is eating a fruit.\n Its name is "+Good1.getName());
+
+        Good2.setName("Red Apple");
+        System.out.println("Jane is eating another fruit.\n Its name is "+Good2.getName());
     }
     private String name;
     private String category;
