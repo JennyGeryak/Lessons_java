@@ -119,6 +119,4 @@ public class CustomerGoods {
 
     private boolean isFresh (){ return this.fresh; }
     private boolean isAvailible (){ return this.fresh; }
-    public void buy (){};
-
 }
