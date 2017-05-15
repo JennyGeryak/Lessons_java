@@ -3,9 +3,26 @@ public class Entertainments {
     Entertainments() {
 
     }
-    public static void main (String args[ ])
+    public Entertainments(String name, String place, int price, long time)
     {
-        System.out.println( "hi, this is class Entertainments" );
+        this.name = name;
+        this.place = place;
+        this.price = price;
+        this.time = time;
+
+    public Entertainments(String place, int price) {
+
+    }
+
+    public static void main (String args[ ])
+
+    {
+        Entertainments Ent1 = new Entertainments("ViewFilm", "Cinema", 90, 1);
+        Entertainments Ent2 = new Entertainments("Cinema", 90);
+        System.out.println("Jave wants to take part in some entertainment.\n Its name is "+Ent1.getName());
+
+        Ent2.setName("Dancing");
+        System.out.println("Jane wants to take part in some another entertainment.\n Its name is "+Ent2.getName());
     }
     private String name;
     private String place;
