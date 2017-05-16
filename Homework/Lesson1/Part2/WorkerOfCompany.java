@@ -1,12 +1,31 @@
 public class WorkerOfCompany {
 
-    WorkerOfCompany(){
+    WorkerOfCompany() {
 
     }
-    public static void main (String args[ ])
-    {
-        System.out.println( "hi, this is class WorkerOfCompany" );
-    }
+public WorkerOfCompany(String name, String age, float salary, String schedule, boolean sex)
+        {
+            this.name = name;
+            this.age = age;
+            this.salary = salary;
+            this.schedule = schedule;
+            this.sex = sex;
+        }
+
+    public WorkerOfCompany(String name, boolean sex ) {
+
+        }
+        public static void main (String args[ ])
+
+        {
+            WorkerOfCompany Worker1 = new WorkerOfCompany("Programmer", "30 years", 10000, "9.00 - 18.00", "man");
+            WorkerOfCompany Worker2 = new WorkerOfCompany("QA-Engineer", "woman");
+            System.out.println("He is working at company on position \n "+Worker1.getName());
+
+            Worker2.setName("QA-Engineer");
+            System.out.println("I am working at company on position \n "+Worker2.getName());
+        }
+
     private String name;
     private String age;
     private float salary;
