@@ -3,11 +3,28 @@ public class MusicInstruments {
     MusicInstruments() {
 
     }
-
-    public static void main (String args[ ])
+    public MusicInstruments(String name, String group, int price,long exploitation_period, long year_of_manufacture)
     {
-        System.out.println( "hi, this is class MusicInstruments" );
+        this.name = name;
+        this.group = group;
+        this.price = price;
+        this.exploitation_period = exploitation_period;
+        this.year_of_manufacture = year_of_manufacture; }
+
+    public MusicInstruments(String group, long year_of_manufacture) {
+
     }
+    public static void main (String args[ ])
+
+    {
+        MusicInstruments Instrument1 = new MusicInstruments("Brass Pipe", "brass", 10000, "10", "2017");
+        MusicInstruments Instrument2 = new MusicInstruments("brass", "2017");
+        System.out.println("I am playing on music instument.\n Its name is "+Instrument1.getName());
+
+        Instrument2.setName("Cool brass pipe");
+        System.out.println("I am playing on another music instrument.\n Its name is "+Instrument2.getName());
+    }
+
     private String name;
     private String model;
     private String group;
