@@ -3,11 +3,29 @@ public class Film {
     Film() {
 
     }
+    public Film(String director, String name, int year, String ganre, String country)
+    {
+        this.director = director;
+        this.name = name;
+        this.year = year;
+        this.ganre = ganre;
+        this.country = country; }
+
+    public Film(String director, int year) {
+
+    }
 
     public static void main (String args[ ])
+
     {
-        System.out.println( "hi, this is class Film" );
+        Film film1 = new Film("George Lucas", "Star wars", 1977, "fantastic", "America");
+        Film film2 = new Film("George Lucas", 1977);
+        System.out.println("George Lucas created fantastic film \n Its name is "+film1.getName());
+
+        film2.setName("Star wars. A new hope");
+        System.out.println("Jane is watching film.\n Its name is "+film2.getName());
     }
+
 
     private String name;
     private int year;

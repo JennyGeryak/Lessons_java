@@ -8,7 +8,7 @@ public class Book{
     {
         this.name = name;
         this.author = author;
-        this.year = name;
+        this.year = year;
         this.ganre = ganre;
         this.publisher = publisher;
         this.country = country; }
