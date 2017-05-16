@@ -3,11 +3,28 @@ public class TouchScreenDevices {
     TouchScreenDevices() {
 
     }
-
-    public static void main (String args[ ])
+    public TouchScreenDevices(String name, String type, int price,long date_of_manufacture)
     {
-        System.out.println( "hi, this is class TouchScreenDevices" );
+        this.name = name;
+        this.type = type;
+        this.price = price;
+        this.exploitation_period = exploitation_period;
     }
+
+    public TouchScreenDevices(int price, long date_of_manufacture) {
+
+    }
+    public static void main (String args[ ])
+
+    {
+        TouchScreenDevices Device1 = new TouchScreenDevices("Telephone", "Smartphone", 10000, "2");
+        TouchScreenDevices Device2 = new TouchScreenDevices("10000", "2");
+        System.out.println("My device really help me in life.\n Its name is "+Device1.getType());
+
+        Device2.setName("Tablet");
+        System.out.println("My device really help me in life. \n Its name is "+Device2.getName());
+    }
+
     private String name;
     private String model;
     private String type;
