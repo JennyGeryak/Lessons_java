@@ -3,8 +3,12 @@ public class SchoolWorker{
     public String sex;
     public int age;
 
-    public work(){};
-    public rest(){};
+    public void work(){
+        System.out.println("working");
+    };
+    public void rest(){
+        System.out.println("having a rest");
+    };
 }
 
 public class Intern extends SchoolWorker{
@@ -12,8 +16,12 @@ public class Intern extends SchoolWorker{
     public boolean isHasClass;
     public String[] knowledge;
 
-    public checkNotebooks(){};
-    public waterFlowers(){};
+    public void checkNotebooks(){
+        System.out.println("checking notebooks");
+    };
+    public void waterFlowers(){
+        System.out.println("watering flowers");
+    };
 }
 
 public class Teacher extends Intern{
@@ -21,8 +29,12 @@ public class Teacher extends Intern{
     public String[] skills;
     public String degree;
 
-    public fillInJournal();
-    public giveHomework();
+    public void fillInJournal(){
+        System.out.println("filling in journal");
+    };
+    public void giveHomework(){
+        System.out.println("giving homework");
+    };
 }
 
 public class Principal extends Teacher{
@@ -30,7 +42,11 @@ public class Principal extends Teacher{
     public boolean barInCabinet;
     public int secretaryCount;
 
-    public askSomeCoffee();
-    public takeBrabe();
+    public void askSomeCoffee(){
+        System.out.println("asking coffee");
+    };
+    public void takeBrabe(){
+        System.out.println("taking brabe");
+    };
 }
 
