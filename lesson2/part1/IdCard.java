@@ -11,7 +11,7 @@ import java.util.Date;
 public class IdCard {
     private Date dateExpire;
     private int number;
-    private IdCard(int n, Employee sysEngineer) throws ParseException {
+    IdCard(int n, Employee sysEngineer) throws ParseException {
         number = n;
 
         IdCard card = new IdCard(123, sysEngineer);
@@ -21,16 +21,19 @@ public class IdCard {
         System.out.println("Удостовирение действует до " + new SimpleDateFormat("yyyy-MM-dd").format(sysEngineer.getIdCard().getDateExpire()) );
     }
 
+    public IdCard(int i) {
+    }
+
     public void setNumber(int newNumber){
         number = newNumber;
     }
     public int getNumber(){
         return number;
     }
-    private void setDateExpire(Date newDateExpire){
+    void setDateExpire(Date newDateExpire){
         dateExpire = newDateExpire;
     }
-    private Date getDateExpire(){
+    Date getDateExpire(){
         return dateExpire;
     }
 
