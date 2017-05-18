@@ -30,7 +30,7 @@ public class IdCard {
     private void setDateExpire(Date newDateExpire){
         dateExpire = newDateExpire;
     }
-    public Date getDateExpire(){
+    private Date getDateExpire(){
         return dateExpire;
     }
 

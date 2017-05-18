@@ -7,6 +7,7 @@ package lesson2.part1;
     // наследуем класс Man
     public class Employee extends Man {
     private String position;
+    private IdCard iCard;
 
     // создаем и конструктор
     public Employee(String n, String s, String p) {
@@ -15,11 +16,16 @@ package lesson2.part1;
         position = p;
     }
 
-    public void setPosition(String newProfession) {
-        position = newProfession;
+    public void setPosition(String newPosition){
+        position = newPosition;
     }
-
-    public String getPosition() {
+    public String getPosition(){
         return position;
+    }
+    public void setIdCard(IdCard c){
+        iCard = c;
+    }
+    public IdCard getIdCard(){
+        return iCard;
     }
 }
