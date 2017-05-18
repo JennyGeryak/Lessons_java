@@ -18,7 +18,7 @@ public class CustomerGoods {
 
     {
         CustomerGoods Good1 = new CustomerGoods("Apple", "Fruit", 100, , "some1233");
-        CustomerGoods Good2 = new Book("Apple", "some1233");
+        CustomerGoods Good2 = new CustomerGoods("Apple", "some1233");
         System.out.println("Jane is eating a fruit.\n Its name is "+Good1.getName());
 
         Good2.setName("Red Apple");
