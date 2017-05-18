@@ -1,27 +1,28 @@
 package lesson2.part1;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
-/**
- * Created by geryak on 18.05.2017.
- * java
- */
-    // наследуем класс Man
-    public class Employee extends Man {
+
+// наследуем класс Man
+public  class Employee extends Man{
     private String position;
     private IdCard iCard;
-    private Set room = new HashSet();
+    private Set<Room> room = new HashSet<Room>();
     private Department department;
-
+    private Set<PastPosition> pastPosition = new HashSet<PastPosition>();
     // создаем и конструктор
-    public Employee(String n, String s, String p) {
-        name = n;
-        surname = s;
-        position = p;
+    public  Employee(String cName, String cSurname, String cPosition){
+        name = cName;
+        surname = cSurname;
+        position = cPosition;
     }
-
     public void setPosition(String newPosition){
+        // сначала должность заносим в список прежних должностей
+        PastPosition pastPosition = new PastPosition(this.getPosition(), this.getDepartment());
+        this.setPastPosition(pastPosition);
+        // меняем должность
         position = newPosition;
     }
     public String getPosition(){
@@ -36,18 +37,31 @@ import java.util.Set;
     public void setRoom(Room newRoom){
         room.add(newRoom);
     }
-    public Set getRoom(){
+    public Set<Room>  getRoom(){
         return room;
     }
-    public void deleteRoom(Room r){
+
+    public void  deleteRoom(Room r){
         room.remove(r);
     }
 
-    public Department getDepartment() {
+    public void setDepartment(Department d){
+        department = d;
+    }
+
+    public Department getDepartment(){
         return department;
     }
 
-    public void setDepartment(Department department) {
-        this.department = department;
+    public void setPastPosition(PastPosition p){
+        pastPosition.add(p);
+    }
+
+    public Set<PastPosition>  getPastPosition(){
+        return pastPosition;
+    }
+
+    public void deletePastPosition(PastPosition p){
+        pastPosition.remove(p);
     }
 }

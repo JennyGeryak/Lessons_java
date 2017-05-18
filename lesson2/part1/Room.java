@@ -14,7 +14,7 @@ public class Room {
     }
     public static void main(String[] args) throws ParseException {
 
-        Employee sysEngineer = new Employee("John", "Connor", "Manager");
+        Employee sysEngineer = new Employee("John", "Connor", "Manager", sysEngineer);
         IdCard card = new IdCard(123);
         card.setDateExpire(new SimpleDateFormat("yyyy-MM-dd").parse("2015-12-31"));
         sysEngineer.setIdCard(card);

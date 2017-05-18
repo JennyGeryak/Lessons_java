@@ -24,8 +24,8 @@ public class IdCard {
     public IdCard(int i) {
     }
 
-    public void setNumber(int newNumber){
-        number = newNumber;
+    public void setNumber(int newNumber) {
+
     }
     public int getNumber(){
         return number;
