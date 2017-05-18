@@ -1,0 +1,31 @@
+Class “TouchScreenDevices”
+
+Attributes: 
+1. name of devices
+2. type of devices (phone, tablet)
+3. price
+4. date of manufacture
+5. screen size
+6. brand of devices
+7. model of devices
+8. the increased screen sensitivity
+
+States: 
+1. working device
+2. broken device
+
+Methods part 1: 
+1. get the increased screen sensitivity
+2. get type of device
+
+Methods part 2: 
+1. get price of devices
+2. get name of devices
+3. set brand of devices
+4. set model of devices
+5. get date of manufacture
+6. set screen size
+
+Rules: 
+1. Methods part 1 are available for class “Device” to be executed.
+2. Methods part 2 are internal and available only inside “TouchScreenDevices” class.
