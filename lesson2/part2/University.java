@@ -13,19 +13,19 @@ public class University {
 
     public String addStudent() {
         return student;
-    };
+    }
     public String removeStudent () {
         return student;
-    };
+    }
     public String getStudent() {
         return student;
     }
     public String addFaculty () {
         return faculty;
-    };
+    }
     public String removeFaculty () {
         return faculty;
-    };
+    }
     public String getFaculty() {
         return faculty;
     }
