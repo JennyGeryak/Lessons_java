@@ -21,7 +21,7 @@ public class University {
         return student;
     }
     public String addFaculty () {
-        return address;
+        return faculty;
     };
     public String removeFaculty () {
         return faculty;
@@ -31,6 +31,9 @@ public class University {
     }
     public void setPhone(int phone) {
         this.phone = phone;
+    }
+    public void setAddress(String address) {
+        this.address = address;
     }
 
 }
