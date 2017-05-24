@@ -4,11 +4,10 @@ package lesson2.part2;
  * Created by geryak on 22.05.2017.
  * java
  */
-public class Faculty extends University {
-
+public class Faculty{
     private String name;
     private int numberOfStudent;
-    private String teacher;
+    private Teacher teacher;
     private String allTeacher;
 
     public void setName(String name) {
@@ -17,11 +16,11 @@ public class Faculty extends University {
     public int getNumberOfStudent() {
         return numberOfStudent;
     }
-    public String addTeacher() {
-        return teacher;
+    public void addTeacher(Teacher teacher) {
+        this.teacher.add(teacher);
     };
-    public String removeTeacher(){
-        return teacher;
+    public void removeTeacher(Teacher teacher){
+        this.teacher.remove(teacher);
     };
     public String getTeacher() {
         return teacher;

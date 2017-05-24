@@ -4,36 +4,36 @@ package lesson2.part2;
  * Created by geryak on 22.05.2017.
  * java
  */
-public class University {
-        protected String name;
-        protected String address;
-        protected String student;
-        protected String faculty;
-        protected int phone;
+public class University extends Establishment{
+    protected Student[] student;
+    protected Faculty[] faculty;
+    protected int phone;
 
-    public String addStudent() {
-        return student;
+    public University(String name, String address){
+        this.name = name;
+        this.address = address;
     }
-    public String removeStudent () {
-        return student;
+
+    public void addStudent(Student student) {
+        this.student.add(student);
+    }
+    public String removeStudent (Student student) {
+        this.student.remove(student);
     }
     public String getStudent() {
         return student;
     }
-    public String addFaculty () {
-        return faculty;
+    public void addFaculty (Faculty faculty) {
+        this.faculty.add(faculty);
     }
-    public String removeFaculty () {
-        return faculty;
+    public void removeFaculty (Faculty faculty) {
+        this.faculty.remove(faculty);
     }
     public String getFaculty() {
         return faculty;
     }
     public void setPhone(int phone) {
         this.phone = phone;
-    }
-    public void setAddress(String address) {
-        this.address = address;
     }
 
 }
