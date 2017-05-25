@@ -1,3 +1,5 @@
+package lesson2.part2;
+
 public class Establishment{
     protected String name;
     protected String address;

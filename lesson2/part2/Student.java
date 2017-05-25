@@ -8,11 +8,13 @@ package lesson2.part2;
 public class Student{
 
     private String name;
+    private String position;
 
     private int StudentID;
-    public Student(String name, int StudentID){
+    public Student(String name, int StudentID, String position){
         this.name = name;
         this.StudentID = StudentID;
+        this.position = position;
     }
 
     public void study(){
@@ -40,5 +42,9 @@ public class Student{
 
     public void setStudentID(int studentID) {
         StudentID = studentID;
+    }
+
+    public String getPosition() {
+        return position;
     }
 }

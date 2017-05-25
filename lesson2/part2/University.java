@@ -20,7 +20,7 @@ public class University extends Establishment{
     public String removeStudent (Student student) {
         this.student.remove(student);
     }
-    public String getStudent() {
+    public Student[] getStudent() {
         return student;
     }
     public void addFaculty (Faculty faculty) {
@@ -29,7 +29,7 @@ public class University extends Establishment{
     public void removeFaculty (Faculty faculty) {
         this.faculty.remove(faculty);
     }
-    public String getFaculty() {
+    public Faculty[] getFaculty() {
         return faculty;
     }
     public void setPhone(int phone) {

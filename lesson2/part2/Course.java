@@ -1,5 +1,7 @@
 package lesson2.part2;
 
+import java.util.List;
+
 /**
  * Created by geryak on 22.05.2017.
  * java
@@ -9,16 +11,25 @@ public class Course extends Faculty {
     private int courseID;
     private Student[] students;
     private Teacher[] teachers;
+    private List<Student> student;
+    private List<Teacher> teacher;
 
-    public Course(String name, int courseID){
+    public Course(String name, int courseID, List<Student> student, List<Teacher> teacher){
+        super();
         this.name = name;
         this.courseID = courseID;
+        this.student = student;
+        this.teacher = teacher;
+    }
+
+    public Course(String name, String student, String allTeacher, int numberOfStudent) {
+        super(name, student, allTeacher, numberOfStudent);
     }
 
     public void addStudent(Student student) {
         this.student.add(student);
     }
-    public String removeStudent (Student student) {
+    public void removeStudent (Student student) {
         this.student.remove(student);
     }
 

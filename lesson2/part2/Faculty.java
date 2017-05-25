@@ -9,6 +9,14 @@ public class Faculty{
     private int numberOfStudent;
     private Teacher teacher;
     private String allTeacher;
+    protected Course[] curses;
+
+    public Faculty(String name, String student, String allTeacher, int numberOfStudent) {
+    }
+
+    public Faculty() {
+
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -22,10 +30,14 @@ public class Faculty{
     public void removeTeacher(Teacher teacher){
         this.teacher.remove(teacher);
     };
-    public String getTeacher() {
+    public Teacher getTeacher() {
         return teacher;
     }
     public String getAllTeacher() {
         return allTeacher;
+    }
+
+    public String getName() {
+        return name;
     }
 }
