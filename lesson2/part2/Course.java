@@ -22,14 +22,14 @@ public class Course extends Faculty {
         this.teacher = teacher;
     }
 
-    public Course(String name, String student, String allTeacher, int numberOfStudent) {
-        super(name, student, allTeacher, numberOfStudent);
+    public Course(String name, int numberOfStudent) {
+        super(name,student, allTeacher, numberOfStudent);
     }
 
     public void addStudent(Student student) {
         this.student.add(student);
     }
-    public void removeStudent (Student student) {
+    public String removeStudent (Student student) {
         this.student.remove(student);
     }
 

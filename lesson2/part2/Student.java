@@ -17,6 +17,10 @@ public class Student{
         this.position = position;
     }
 
+    public Student(String s, int i) {
+
+    }
+
     public void study(){
 
     };
