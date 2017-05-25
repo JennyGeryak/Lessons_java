@@ -5,11 +5,11 @@ package lesson2.part2;
  * java
  */
 public class University extends Establishment{
-    protected Student[] student;
-    protected Faculty[] faculty;
-    protected int phone;
+    private Student[] student;
+    private Faculty[] faculty;
+    private int phone;
 
-    public University(String name, String address){
+    public University(String name,String address){
         this.name = name;
         this.address = address;
     }

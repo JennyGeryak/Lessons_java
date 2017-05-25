@@ -9,7 +9,7 @@ public class Faculty{
     private int numberOfStudent;
     private Teacher teacher;
     private String allTeacher;
-    protected Course[] curses;
+    protected Course[] course;
 
     public Faculty(String name, String student, String allTeacher, int numberOfStudent) {
     }
